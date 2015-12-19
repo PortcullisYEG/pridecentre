@@ -1,0 +1,8 @@
+platforms/
+plugins/
+.DS_Store
+Makefile
+node_modules/
+#www/all.min.js
+
+*.swp
