@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.pumpun.wapp" version="2.0.0" versionCode="20000" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Wapp</name>
+<widget id="com.portculliscreative.pce" version="2.0.0" versionCode="20000" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Pride Centre of Edmonton</name>
     <description>
-    Wapp - The magazine. Famous quotations on humans.
+    Pride Centre of Edmonton - Resources at your fingertips
     </description>
 
 	<gap:platform name="ios" />
@@ -48,10 +48,10 @@
     <access origin="*" />
     <access origin="*.pushwoosh.com" />
 
-    <icon gap:platform="android" gap:qualifier="ldpi" src="res/icon/android/mipmap-ldpi/ic_launcher.png" />
-    <icon gap:platform="android" gap:qualifier="mdpi" src="res/icon/android/mipmap-mdpi/ic_launcher.png" />
-    <icon gap:platform="android" gap:qualifier="hdpi" src="res/icon/android/mipmap-hdpi/ic_launcher.png" />
-    <icon gap:platform="android" gap:qualifier="xhdpi" src="res/icon/android/mipmap-xhdpi/ic_launcher.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="res/icon/android/mipmap-ldpi/icon.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="res/icon/android/mipmap-mdpi/icon.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="res/icon/android/mipmap-hdpi/icon.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="res/icon/android/mipmap-xhdpi/icon.png" />
     <icon gap:platform="ios" height="57" src="res/icon/ios/icon.png" width="57" />
     <icon gap:platform="ios" height="72" src="res/icon/ios/icon-72.png" width="72" />
     <icon gap:platform="ios" height="114" src="res/icon/ios/icon@2x.png" width="114" />
@@ -61,9 +61,9 @@
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screen/android/screen-mdpi.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/screen/android/screen-hdpi.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screen/android/screen-xhdpi.png" />
-    <gap:splash gap:platform="ios" height="480" src="res/screen/ios/screen~iphone.png" width="320" />
-    <gap:splash gap:platform="ios" height="960" src="res/screen/ios/screen~iphone@2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="1136" src="res/screen/ios/screen-568h~iphone@2x.png" width="640" />
-    <gap:splash src="splash.png" />
+    <gap:splash gap:platform="ios" height="480" src="res/screen/ios/default~iphone.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="res/screen/ios/default~iphone@2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1136" src="res/screen/ios/default-568h~iphone@2x.png" width="640" />
+    <gap:splash src="default.png" />
     
 </widget>
